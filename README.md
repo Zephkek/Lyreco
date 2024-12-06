@@ -55,13 +55,6 @@ git clone https://github.com/votre-nom/lyreco-ocean-challenge
 
 Ouvrez simplement `index.html` dans votre navigateur pour commencer à jouer.
 
-## 🤝 Contribution
-
-Les contributions sont les bienvenues ! N'hésitez pas à :
-- Proposer des améliorations
-- Signaler des bugs
-- Suggérer des nouvelles fonctionnalités
-
 ## 📝 Licence
 
 Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
