@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lyreco Ocean Challenge - Nuit de l'Info 2024</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <style></style>
+  </head>
+  <body>
+    <div class="ocean-container">
+      <div class="ocean-gradient"></div>
+      <div class="bubble-layers">
+        <div
+          class="bubble-layer large-bubbles"
+          style="animation-duration: 35s"
+        ></div>
+        <div
+          class="bubble-layer medium-bubbles"
+          style="animation-duration: 45s"
+        ></div>
+        <div
+          class="bubble-layer small-bubbles"
+          style="animation-duration: 55s"
+        ></div>
+      </div>
+      <div class="fish">
+        <div class="fish-eye"></div>
+      </div>
+      <div class="fish fish-2">
+        <div class="fish-eye"></div>
+      </div>
+      <div class="fish fish-3">
+        <div class="fish-eye"></div>
+      </div>
+    </div>
+
+    <div class="game-interface">
+      <header class="header">
+        <h1 class="title">Lyreco Ocean Challenge</h1>
+        <p class="subtitle">
+          Nuit de l'Info 2024 - Sauvez nos océans, un clic à la fois
+        </p>
+        <p class="description">
+          <strong>Votre mission :</strong> Trouvez le logo Lyreco qui se déplace
+          aléatoirement dans l'océan. À chaque partie, le logo apparaît à un
+          nouvel emplacement. Cliquez dessus pour gagner des points, enchaîner
+          vos réussites, éviter les obstacles et collecter des bonus.
+          Amusez-vous tout en contribuant à la protection des océans !
+          <em>Sauvez nos océans, un clic à la fois !</em>
+        </p>
+      </header>
+      <div class="game-arena" id="gameArena"></div>
+
+      <div class="score-panel">
+        <div class="score-row">
+          Score: <span class="score" id="score">0</span>
+        </div>
+        <div class="score-row">
+          Meilleur Score: <span class="best-score" id="bestScore">0</span>
+        </div>
+        <div class="streak-display" id="streakDisplay">
+          Streak: <span class="streak-count">0</span>x
+        </div>
+        <div class="trophy" id="trophy" style="display: none"></div>
+      </div>
+      <div class="lives" id="livesContainer"></div>
+
+      <div class="controls">
+        <button class="button" id="startButton">Commencer</button>
+        <button class="button" id="pauseButton" style="display: none">
+          Pause
+        </button>
+      </div>
+
+      <div
+        class="milestone-message"
+        id="milestoneMessage"
+        style="display: none"
+      >
+        <div class="milestone-text">Nouveau Palier!</div>
+        <div class="milestone-subtext"></div>
+      </div>
+
+      <div
+        class="confetti-container"
+        id="confettiContainer"
+        style="display: none"
+      ></div>
+      <div
+        class="game-over-overlay"
+        id="gameOverOverlay"
+        style="display: none"
+      ></div>
+    </div>
+    <script src="js/sound.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
