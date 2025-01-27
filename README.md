@@ -50,7 +50,7 @@ Le jeu sensibilise à la pollution des océans en :
 ## 🔧 Installation
 
 ```bash
-git clone https://github.com/votre-nom/lyreco-ocean-challenge
+git clone https://github.com/ZephKek/lyreco-ocean-challenge
 ```
 
 Ouvrez simplement `index.html` dans votre navigateur pour commencer à jouer.
